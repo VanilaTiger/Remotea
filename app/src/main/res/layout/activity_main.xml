@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:id="@+id/activity_main">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.android.remotea.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tea"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:gravity="left"
+            android:text=
+                "Remotea is the place where the TEA meets the TECHNOLOGY. You don't need to look for a company to talk. In the other remotea location there is someone waiting to talk to you because EVERYBODY loves tea."
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:text=
+                "COME CONNECT ENJOY THE TEA WORLDWIDE"
+            android:textColor="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/happytea"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp"
+        android:textSize="16sp"
+        android:text="Contact"
+        android:textAllCaps="true"
+        android:textColor="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/location"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:textSize="12sp"
+                    android:text="Komisji Edukacji Narodowej 55 apt. 81"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:onClick="ShowLocation"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/mobile"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:textSize="12sp"
+                    android:text="+48 519101141"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:onClick="Call"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/email"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:textSize="12sp"
+                    android:text="a.szummer@gmail.com"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/darker_gray"
+                    android:onClick="SendEmail"/>
+
+            </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
